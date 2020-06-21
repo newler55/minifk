@@ -21,7 +21,7 @@ spec:
         app: hasher
     spec:
       containers:
-      - image: dockercoins/hasher:v0.1
+      - image: newler55/hasher:v0.1
         imagePullPolicy: IfNotPresent
         name: hasher
       dnsPolicy: ClusterFirst

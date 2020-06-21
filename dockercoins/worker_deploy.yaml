@@ -21,7 +21,7 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockercoins/worker:v0.1
+      - image: newler55/worker:v0.1
         imagePullPolicy: IfNotPresent
         name: worker
         terminationMessagePath: /dev/termination-log
